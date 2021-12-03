@@ -11,18 +11,20 @@
 </head>
 
 <body>
-    <h1>Rows Worked</h1>
-    <h2 id="count-el">0</h2>
-    <div>
-        <button id="increment-btn" onclick="increment()">Add Row</button>
-        <button id="decrement-btn" onclick="decrement()">Frog Row</button>
-        <button id="save-btn" onclick="saveProg()">Save Progress</button>
-    </div>
-    <div>
-        <p>Rows Finished: <span id="save-text"></span></p>
-        <p>Total Rows: <span id="save-total"></span></p>
-        <button id="clear-btn" onclick="clearProg()">Clear Progress</button>
-    </div>
+    <main class="container">
+        <div id="counter-text">
+            <h1>Rows Worked</h1>
+            <p id="count-el">0</p>
+        </div>
+        <div>
+            <button id="increment-btn" onclick="increment()">Add Row</button>
+            <button id="decrement-btn" onclick="decrement()">Frog Row</button>
+            <button id="save-btn" onclick="saveProg()">Save Progress</button>
+            <p>Saves: <span id="save-text"></span></p>
+            <p>Total: <span id="save-total"></span></p>
+            <button id="clear-btn" onclick="clearProg()">Clear Progress</button>
+        </div>
+    </main>
 </body>
 
 </html>
